@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TableRow>
+        <TextView
+            android:padding="19dip"
+            android:text="Temperatura"
+            android:textSize="12dp"
+            android:gravity="left"/>
+        <TextView
+            android:textSize="12dp"
+            android:padding="19dip"
+            android:id="@+id/temperatura" 
+            android:gravity="right" />
+    </TableRow>
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+    
+    
+    <TableRow>
+        <TextView
+            android:textSize="12dp"
+            android:padding="19dip"
+            android:text="Hitrost"
+            android:gravity="left"/>
+        <TextView
+            android:textSize="12dp"
+            android:padding="19dip"
+            android:id="@+id/hitrost" 
+            android:gravity="right" />
+    </TableRow>
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+
+    <TableRow>
+        <TextView
+            android:textSize="12dp"
+            android:padding="19dip"
+            android:text="Padavine"
+            android:gravity="left"/>
+        <TextView
+            android:textSize="12dp"
+            android:padding="19dip"
+            android:id="@+id/padavine" 
+            android:gravity="right"/>
+    </TableRow>
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+
+    <TableRow>
+        <TextView
+            android:textSize="12dp"
+            android:padding="19dip"
+            android:text="Vlaznost"
+            android:gravity="left"/>
+        <TextView
+            android:textSize="12dp"
+            android:padding="19dip"
+            android:id="@+id/vlaznost" 
+            android:gravity="right"/>
+    </TableRow>
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+
+    <TableRow>
+        <TextView
+            android:textSize="12dp"
+            android:padding="19dip"
+            android:text="Sunki"
+            android:gravity="left"/>
+        <TextView
+            android:textSize="12dp"
+            android:padding="19dip"
+            android:id="@+id/sunki" 
+            android:gravity="right"/>
+    </TableRow>
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+
+    <TableRow>
+        <TextView
+            android:textSize="12dp"
+            android:padding="19dip"
+            android:text="Tlak"
+            android:gravity="left"/>
+        <TextView
+            android:textSize="12dp"
+            android:padding="19dip"
+            android:id="@+id/tlak" 
+            android:gravity="right"/>
+    </TableRow>
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+
+    <TableRow>
+        <TextView
+            android:textSize="12dp"
+            android:padding="19dip"
+            android:text="Smer"
+            android:gravity="left"/>
+        <TextView
+            android:textSize="12dp"
+            android:padding="19dip"
+            android:id="@+id/smer" 
+            android:gravity="right"/>
+    </TableRow>
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+
+    <TableRow>
+        <TextView
+            android:textSize="12dp"
+            android:padding="19dip"
+            android:text="Sevanje"
+            android:gravity="left"/>
+        <TextView
+            android:textSize="12dp"
+            android:padding="19dip"
+            android:id="@+id/sevanje" 
+            android:gravity="right"/>
+    </TableRow>
+    
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+</TableLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	<TableLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:stretchColumns="0">
+	    <TableRow>
+	        <TextView
+	            android:padding="17dip"
+	            android:id="@+id/tujinaime" 
+	            android:gravity="right" />
+	    </TableRow>
+	    <View
+	        android:layout_height="2dip"
+	        android:background="#FF909090" />
+	    <TableRow>
+	        <TextView
+	            android:padding="17dip"
+	            android:text="Temperatura:"
+	            android:gravity="left"/>
+	        <TextView
+	            android:padding="17dip"
+	            android:id="@+id/tujinatemeratura" 
+	            android:gravity="left"
+	            android:layout_marginRight="100dip" />
+	    </TableRow>
+	    <View
+	        android:layout_height="2dip"
+	        android:background="#FF909090" />
+	
+	    <TableRow>
+	        <TextView
+	            android:padding="17dip"
+	            android:text="Veter: "
+	            android:gravity="left"/>
+	        <TextView
+	            android:padding="17dip"
+	            android:id="@+id/tujinaveter" 
+	            android:gravity="left"
+	            android:layout_marginRight="100dip"/>
+	    </TableRow>
+	    <View
+	        android:layout_height="2dip"
+	        android:background="#FF909090" />
+	
+	    <TableRow>
+	        <TextView
+	            android:padding="17dip"
+	            android:text="Vreme: "
+	            android:gravity="left"/>
+	        <TextView
+	            android:layout_marginRight="100dip"
+	            android:padding="17dip"
+	            android:id="@+id/tujinavreme" 
+	            android:gravity="left"/>
+	    </TableRow>
+	    <View
+	        android:layout_height="2dip"
+	        android:background="#FF909090" />
+	
+	    <TableRow>
+	        <TextView
+	            android:padding="17dip"
+	            android:text="Smer Vetra: "
+	            android:gravity="left"/>
+	        <TextView
+	            android:layout_marginRight="100dip"
+	            android:padding="17dip"
+	            android:id="@+id/tujinasmervetra" 
+	            android:gravity="left"/>
+	    </TableRow>
+	    <View
+	        android:layout_height="2dip"
+	        android:background="#FF909090" />
+	</TableLayout>
+</RelativeLayout>

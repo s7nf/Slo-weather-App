@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0" >
+
+        <TableRow >
+
+            <TextView
+                android:id="@+id/postajaIime"
+                android:gravity="right"
+                android:padding="13dip" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+
+        <TableRow >
+
+            <TextView
+                android:gravity="left"
+                android:padding="13dip"
+                android:text="Temperatura:" />
+
+            <TextView
+                android:id="@+id/postajaTemeratura"
+                android:layout_marginRight="100dip"
+                android:gravity="left"
+                android:padding="13dip" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+
+        <TableRow >
+
+            <TextView
+                android:gravity="left"
+                android:padding="13dip"
+                android:text="Hitrost vetra: " />
+
+            <TextView
+                android:id="@+id/postajaVeterHitrost"
+                android:layout_marginRight="100dip"
+                android:gravity="left"
+                android:padding="13dip" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+
+        <TableRow >
+
+            <TextView
+                android:gravity="left"
+                android:padding="13dip"
+                android:text="Padavine: " />
+
+            <TextView
+                android:id="@+id/postajaPadavine"
+                android:layout_marginRight="100dip"
+                android:gravity="left"
+                android:padding="13dip" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+
+        <TableRow >
+
+            <TextView
+                android:gravity="left"
+                android:padding="13dip"
+                android:text="Vlažnost: " />
+
+            <TextView
+                android:id="@+id/PostajaVlažnost"
+                android:layout_marginRight="100dip"
+                android:gravity="left"
+                android:padding="13dip" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+
+        <TableRow >
+
+            <TextView
+                android:gravity="left"
+                android:padding="13dip"
+                android:text="Sunki: " />
+
+            <TextView
+                android:id="@+id/PostajaSunki"
+                android:layout_marginRight="100dip"
+                android:gravity="left"
+                android:padding="13dip" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+
+        <TableRow >
+
+            <TextView
+                android:gravity="left"
+                android:padding="13dip"
+                android:text="Tlak: " />
+
+            <TextView
+                android:id="@+id/PostajaTlak"
+                android:layout_marginRight="100dip"
+                android:gravity="left"
+                android:padding="13dip" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+
+        <TableRow >
+
+            <TextView
+                android:gravity="left"
+                android:padding="13dip"
+                android:text="Smer Vetra: " />
+
+            <TextView
+                android:id="@+id/PostajaSmer"
+                android:layout_marginRight="100dip"
+                android:gravity="left"
+                android:padding="13dip" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+
+        <TableRow >
+
+            <TextView
+                android:gravity="left"
+                android:padding="13dip"
+                android:text="Sevanje: " />
+
+            <TextView
+                android:id="@+id/PostajaSevanje"
+                android:layout_marginRight="100dip"
+                android:gravity="left"
+                android:padding="13dip" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+    </TableLayout>
+
+    <Button
+        android:id="@+id/PostajaSlikaButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tableLayout1"
+        android:text="Preveri za sliko kraja" />
+
+</RelativeLayout>

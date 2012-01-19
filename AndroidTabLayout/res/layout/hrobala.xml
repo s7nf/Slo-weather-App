@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	    
+	<TableLayout android:layout_width="fill_parent"
+	    android:layout_height="fill_parent">
+	
+	    <TableRow>
+	        <TextView
+	            android:layout_width="fill_parent"
+	            android:padding="20dip"
+	            android:layout_marginLeft="15dip"
+	            android:layout_marginRight="15dip"
+	            android:text="MESTO"
+	            android:textSize="12dp"/>
+	        <View
+	            android:layout_height="55dip"
+	            android:layout_width="2dip"
+	        	android:background="#FF909090" />
+	        
+	        <TextView
+	            android:layout_marginRight="15dip"
+	            android:layout_marginLeft="15dip"
+	            android:text="OB 7.00"
+	            android:textSize="12dp"
+	            android:padding="19dip"  />
+	        <View
+	            android:layout_width="2dip"
+	            android:layout_height="55dip"
+	        	android:background="#FF909090" />
+	
+	        <TextView
+	            android:layout_marginLeft="10dip"
+	            android:padding="19dip"
+	            android:text="OB 13.00"
+	            android:textSize="12dp" />
+	
+	    </TableRow>
+	    <View
+	        android:layout_height="2dip"
+	        android:background="#FF909090" />
+	    
+	    
+	    <TableRow>
+	        <TextView
+	            android:layout_width="fill_parent"
+	            android:padding="20dip"
+	            android:layout_marginLeft="15dip"
+	            android:layout_marginRight="15dip"
+	            android:text="Božava"
+	            android:textSize="12dp"/>
+	        <View
+	            android:layout_height="55dip"
+	            android:layout_width="2dip"
+	        	android:background="#FF909090" />
+	        
+	        <TextView
+	            android:layout_marginRight="15dip"
+	            android:layout_marginLeft="15dip"
+	            android:id="@+id/obsedmih1"
+	            android:textSize="12dp"
+	            android:padding="19dip"  />
+	        <View
+	            android:layout_width="2dip"
+	            android:layout_height="55dip"
+	        	android:background="#FF909090" />
+	
+	        <TextView
+	            android:layout_marginLeft="10dip"
+	            android:padding="19dip"
+	            android:id="@+id/obtrinastih1"
+	            android:textSize="12dp" />
+	
+	    </TableRow>
+	    <View
+	        android:layout_height="2dip"
+	        android:background="#FF909090" />
+	    
+	    
+	    <TableRow>
+	        <TextView
+	            android:layout_width="fill_parent"
+	            android:padding="20dip"
+	            android:layout_marginLeft="15dip"
+	            android:layout_marginRight="15dip"
+	            android:text="Hvar"
+	            android:textSize="12dp"/>
+	        <View
+	            android:layout_height="55dip"
+	            android:layout_width="2dip"
+	        	android:background="#FF909090" />
+	        
+	        <TextView
+	            android:layout_marginRight="15dip"
+	            android:layout_marginLeft="15dip"
+	            android:id="@+id/obsedmih2"
+	            android:textSize="12dp"
+	            android:padding="19dip"  />
+	        <View
+	            android:layout_width="2dip"
+	            android:layout_height="55dip"
+	        	android:background="#FF909090" />
+	
+	        <TextView
+	            android:layout_marginLeft="10dip"
+	            android:padding="19dip"
+	            android:id="@+id/obtrinastih2"
+	            android:textSize="12dp" />
+	
+	    </TableRow>
+	    <View
+	        android:layout_height="2dip"
+	        android:background="#FF909090" />
+	    
+	    <TableRow>
+	        <TextView
+	            android:layout_width="fill_parent"
+	            android:padding="20dip"
+	            android:layout_marginLeft="15dip"
+	            android:layout_marginRight="15dip"
+	            android:text="Komiža"
+	            android:textSize="12dp"/>
+	        <View
+	            android:layout_height="55dip"
+	            android:layout_width="2dip"
+	        	android:background="#FF909090" />
+	        
+	        <TextView
+	            android:layout_marginRight="15dip"
+	            android:layout_marginLeft="15dip"
+	            android:id="@+id/obsedmih3"
+	            android:textSize="12dp"
+	            android:padding="19dip"  />
+	        <View
+	            android:layout_width="2dip"
+	            android:layout_height="55dip"
+	        	android:background="#FF909090" />
+	
+	        <TextView
+	            android:layout_marginLeft="10dip"
+	            android:padding="19dip"
+	            android:id="@+id/obtrinastih3"
+	            android:textSize="12dp" />
+	
+	    </TableRow>
+	    <View
+	        android:layout_height="2dip"
+	        android:background="#FF909090" />
+	    
+	    <TableRow>
+	        <TextView
+	            android:layout_width="fill_parent"
+	            android:padding="20dip"
+	            android:layout_marginLeft="15dip"
+	            android:layout_marginRight="15dip"
+	            android:text="Krk"
+	            android:textSize="12dp"/>
+	        <View
+	            android:layout_height="55dip"
+	            android:layout_width="2dip"
+	        	android:background="#FF909090" />
+	        
+	        <TextView
+	            android:layout_marginRight="15dip"
+	            android:layout_marginLeft="15dip"
+	            android:id="@+id/obsedmih4"
+	            android:textSize="12dp"
+	            android:padding="19dip"  />
+	        <View
+	            android:layout_width="2dip"
+	            android:layout_height="55dip"
+	        	android:background="#FF909090" />
+	
+	        <TextView
+	            android:layout_marginLeft="10dip"
+	            android:padding="19dip"
+	            android:id="@+id/obtrinastih4"
+	            android:textSize="12dp" />
+	
+	    </TableRow>
+	    <View
+	        android:layout_height="2dip"
+	        android:background="#FF909090" />
+	    <TableRow>
+	        <TextView
+	            android:layout_width="fill_parent"
+	            android:padding="20dip"
+	            android:layout_marginLeft="15dip"
+	            android:layout_marginRight="15dip"
+	            android:text="Lastovo"
+	            android:textSize="12dp"/>
+	        <View
+	            android:layout_height="55dip"
+	            android:layout_width="2dip"
+	        	android:background="#FF909090" />
+	        
+	        <TextView
+	            android:layout_marginRight="15dip"
+	            android:layout_marginLeft="15dip"
+	            android:id="@+id/obsedmih5"
+	            android:textSize="12dp"
+	            android:padding="19dip"  />
+	        <View
+	            android:layout_width="2dip"
+	            android:layout_height="55dip"
+	        	android:background="#FF909090" />
+	
+	        <TextView
+	            android:layout_marginLeft="10dip"
+	            android:padding="19dip"
+	            android:id="@+id/obtrinastih5"
+	            android:textSize="12dp" />
+	
+	    </TableRow>
+	    <View
+	        android:layout_height="2dip"
+	        android:background="#FF909090" />
+	    <TableRow>
+	        <TextView
+	            android:layout_width="fill_parent"
+	            android:padding="20dip"
+	            android:layout_marginLeft="15dip"
+	            android:layout_marginRight="15dip"
+	            android:text="Malinska"
+	            android:textSize="12dp"/>
+	        <View
+	            android:layout_height="55dip"
+	            android:layout_width="2dip"
+	        	android:background="#FF909090" />
+	        
+	        <TextView
+	            android:layout_marginRight="15dip"
+	            android:layout_marginLeft="15dip"
+	            android:id="@+id/obsedmih6"
+	            android:textSize="12dp"
+	            android:padding="19dip"  />
+	        <View
+	            android:layout_width="2dip"
+	            android:layout_height="55dip"
+	        	android:background="#FF909090" />
+	
+	        <TextView
+	            android:layout_marginLeft="10dip"
+	            android:padding="19dip"
+	            android:id="@+id/obtrinastih6"
+	            android:textSize="12dp" />
+	
+	    </TableRow>
+	    <View
+	        android:layout_height="2dip"
+	        android:background="#FF909090" />
+	    <TableRow>
+	        <TextView
+	            android:layout_width="fill_parent"
+	            android:padding="20dip"
+	            android:layout_marginLeft="15dip"
+	            android:layout_marginRight="15dip"
+	            android:text="Mljet"
+	            android:textSize="12dp"/>
+	        <View
+	            android:layout_height="55dip"
+	            android:layout_width="2dip"
+	        	android:background="#FF909090" />
+	        
+	        <TextView
+	            android:layout_marginRight="15dip"
+	            android:layout_marginLeft="15dip"
+	            android:id="@+id/obsedmih7"
+	            android:textSize="12dp"
+	            android:padding="19dip"  />
+	        <View
+	            android:layout_width="2dip"
+	            android:layout_height="55dip"
+	        	android:background="#FF909090" />
+	
+	        <TextView
+	            android:layout_marginLeft="10dip"
+	            android:padding="19dip"
+	            android:id="@+id/obtrinastih7"
+	            android:textSize="12dp" />
+	
+	    </TableRow>
+	    <View
+	        android:layout_height="2dip"
+	        android:background="#FF909090" />
+	    <TableRow>
+	        <TextView
+	            android:layout_width="fill_parent"
+	            android:padding="20dip"
+	            android:layout_marginLeft="15dip"
+	            android:layout_marginRight="15dip"
+	            android:text="Opatija"
+	            android:textSize="12dp"/>
+	        <View
+	            android:layout_height="55dip"
+	            android:layout_width="2dip"
+	        	android:background="#FF909090" />
+	        
+	        <TextView
+	            android:layout_marginRight="15dip"
+	            android:layout_marginLeft="15dip"
+	            android:id="@+id/obsedmih8"
+	            android:textSize="12dp"
+	            android:padding="19dip"  />
+	        <View
+	            android:layout_width="2dip"
+	            android:layout_height="55dip"
+	        	android:background="#FF909090" />
+	
+	        <TextView
+	            android:layout_marginLeft="10dip"
+	            android:padding="19dip"
+	            android:id="@+id/obtrinastih8"
+	            android:textSize="12dp" />
+	
+	    </TableRow>
+	    <View
+	        android:layout_height="2dip"
+	        android:background="#FF909090" />
+	    <TableRow>
+	        <TextView
+	            android:layout_width="fill_parent"
+	            android:padding="20dip"
+	            android:layout_marginLeft="15dip"
+	            android:layout_marginRight="15dip"
+	            android:text="Rab"
+	            android:textSize="12dp"/>
+	        <View
+	            android:layout_height="55dip"
+	            android:layout_width="2dip"
+	        	android:background="#FF909090" />
+	        
+	        <TextView
+	            android:layout_marginRight="15dip"
+	            android:layout_marginLeft="15dip"
+	            android:id="@+id/obsedmih10"
+	            android:textSize="12dp"
+	            android:padding="19dip"  />
+	        <View
+	            android:layout_width="2dip"
+	            android:layout_height="55dip"
+	        	android:background="#FF909090" />
+	
+	        <TextView
+	            android:layout_marginLeft="10dip"
+	            android:padding="19dip"
+	            android:id="@+id/obtrinastih10"
+	            android:textSize="12dp" />
+	
+	    </TableRow>
+	    <View
+	        android:layout_height="2dip"
+	        android:background="#FF909090" />
+	    <TableRow>
+	        <TextView
+	            android:layout_width="fill_parent"
+	            android:padding="20dip"
+	            android:layout_marginLeft="15dip"
+	            android:layout_marginRight="15dip"
+	            android:text="Šibenik"
+	            android:textSize="12dp"/>
+	        <View
+	            android:layout_height="55dip"
+	            android:layout_width="2dip"
+	        	android:background="#FF909090" />
+	        
+	        <TextView
+	            android:layout_marginRight="15dip"
+	            android:layout_marginLeft="15dip"
+	            android:id="@+id/obsedmih11"
+	            android:textSize="12dp"
+	            android:padding="19dip"  />
+	        <View
+	            android:layout_width="2dip"
+	            android:layout_height="55dip"
+	        	android:background="#FF909090" />
+	
+	        <TextView
+	            android:layout_marginLeft="10dip"
+	            android:padding="19dip"
+	            android:id="@+id/obtrinastih11"
+	            android:textSize="12dp" />
+	
+	    </TableRow>
+	    <View
+	        android:layout_height="2dip"
+	        android:background="#FF909090" />
+	    <TableRow>
+	        <TextView
+	            android:layout_width="fill_parent"
+	            android:padding="20dip"
+	            android:layout_marginLeft="15dip"
+	            android:layout_marginRight="15dip"
+	            android:text="Split"
+	            android:textSize="12dp"/>
+	        <View
+	            android:layout_height="55dip"
+	            android:layout_width="2dip"
+	        	android:background="#FF909090" />
+	        
+	        <TextView
+	            android:layout_marginRight="15dip"
+	            android:layout_marginLeft="15dip"
+	            android:id="@+id/obsedmih12"
+	            android:textSize="12dp"
+	            android:padding="19dip"  />
+	        <View
+	            android:layout_width="2dip"
+	            android:layout_height="55dip"
+	        	android:background="#FF909090" />
+	
+	        <TextView
+	            android:layout_marginLeft="10dip"
+	            android:padding="19dip"
+	            android:id="@+id/obtrinastih12"
+	            android:textSize="12dp" />
+	
+	    </TableRow>
+	    <View
+	        android:layout_height="2dip"
+	        android:background="#FF909090" />
+	    <TableRow>
+	        <TextView
+	            android:layout_width="fill_parent"
+	            android:padding="20dip"
+	            android:layout_marginLeft="15dip"
+	            android:layout_marginRight="15dip"
+	            android:text="Zadar"
+	            android:textSize="12dp"/>
+	        <View
+	            android:layout_height="55dip"
+	            android:layout_width="2dip"
+	        	android:background="#FF909090" />
+	        
+	        <TextView
+	            android:layout_marginRight="15dip"
+	            android:layout_marginLeft="15dip"
+	            android:id="@+id/obsedmih13"
+	            android:textSize="12dp"
+	            android:padding="19dip"  />
+	        <View
+	            android:layout_width="2dip"
+	            android:layout_height="55dip"
+	        	android:background="#FF909090" />
+	
+	        <TextView
+	            android:layout_marginLeft="10dip"
+	            android:padding="19dip"
+	            android:id="@+id/obtrinastih13"
+	            android:textSize="12dp" />
+	
+	    </TableRow>
+	    
+	</TableLayout>
+</ScrollView>

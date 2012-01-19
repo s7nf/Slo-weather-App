@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0" >
+
+        <TableRow >
+
+            <TextView
+                android:id="@+id/VodaIime"
+                android:gravity="right"
+                android:padding="13dip" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+
+        <TableRow >
+
+            <TextView
+                android:gravity="left"
+                android:padding="13dip"
+                android:text="Temperatura:" />
+
+            <TextView
+                android:id="@+id/VodaTemeratura"
+                android:layout_marginRight="100dip"
+                android:gravity="left"
+                android:padding="13dip" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+
+        <TableRow >
+
+            <TextView
+                android:gravity="left"
+                android:padding="13dip"
+                android:text="Stanje: " />
+
+            <TextView
+                android:id="@+id/StanjeVoda"
+                android:layout_marginRight="200dip"
+                android:gravity="left"
+                android:padding="13dip" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+
+        <TableRow >
+
+            <TextView
+                android:gravity="left"
+                android:padding="13dip"
+                android:text="Vodostaj: " />
+
+            <TextView
+                android:id="@+id/VodostajVoda"
+                android:layout_marginRight="100dip"
+                android:gravity="left"
+                android:padding="13dip" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+
+        <TableRow >
+
+            <TextView
+                android:gravity="left"
+                android:padding="13dip"
+                android:text="Pretok: " />
+
+            <TextView
+                android:id="@+id/PretokVoda"
+                android:layout_marginRight="100dip"
+                android:gravity="left"
+                android:padding="13dip" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+
+    </TableLayout>
+</RelativeLayout>

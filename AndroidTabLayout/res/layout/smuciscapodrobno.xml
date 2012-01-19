@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:layout_width="fill_parent"
+	    android:layout_height="fill_parent">
+	<TableLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent">
+		<TableRow>
+		    <TextView 
+		        android:padding="19dip"
+		        android:id="@+id/imesmucisca"
+		        android:gravity="center"
+		        />
+		</TableRow>
+		<View
+	        android:layout_height="2dip"
+	        android:background="#FF909090" />
+	    <TableRow>
+	        <TextView
+	            android:padding="19dip"
+	            android:text="Vreme: "
+	            android:textSize="12dp"/>
+	        <TextView
+	            android:textSize="12dp"
+	            android:padding="19dip"
+	            android:id="@+id/smuciscestanje"/>
+	        
+	    </TableRow>
+	    <View
+	        android:layout_height="2dip"
+	        android:background="#FF909090" />
+	    
+	    
+	    <TableRow>
+	        <TextView
+	            android:textSize="12dp"
+	            android:padding="19dip"
+	            android:text="Temperatura:"/>
+	        <TextView
+	            android:textSize="12dp"
+	            android:padding="19dip"
+	            android:id="@+id/smuciscetemperatura"/>
+	    </TableRow>
+	    <View
+	        android:layout_height="2dip"
+	        android:background="#FF909090" />
+	
+	     <TableRow>
+	        <TextView
+	            android:textSize="12dp"
+	            android:padding="19dip"
+	            android:text="Veter"/>
+	        <TextView
+	            android:textSize="12dp"
+	            android:padding="19dip"
+	            android:id="@+id/smucisceveter"/>
+	    </TableRow>
+	    <View
+	        android:layout_height="2dip"
+	        android:background="#FF909090" />
+	    <TableRow>
+	        <TextView
+	            android:textSize="12dp"
+	            android:padding="19dip"
+	            android:text="Višina snežne odeje:"/>
+	        <TextView
+	            android:textSize="12dp"
+	            android:padding="19dip"
+	            android:id="@+id/smuciscevisinasnega"/>
+	    </TableRow>
+	    <View
+	        android:layout_height="2dip"
+	        android:background="#FF909090" />
+	
+	    <TableRow>
+	        <TextView
+	            android:textSize="12dp"
+	            android:padding="19dip"
+	            android:text="Vec informacij na: "/>
+	        <TextView
+	            android:clickable="true"           
+	            android:textSize="12dp"
+	            android:padding="19dip"
+	            android:id="@+id/smuciscatelefon"/>
+	    </TableRow>
+	    <View
+	        android:layout_height="2dip"
+	        android:background="#FF909090" />
+	    
+	    <ImageView
+	        android:id="@+id/slikasmucisca"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent" />
+	</TableLayout>
+</LinearLayout>
